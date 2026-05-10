@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bangalore PG Finder</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">BLR<span>Stay</span> — Bangalore PG Finder</div>
+  <div class="result-count" id="resultCount">Loading...</div>
+</header>
+
+<div class="layout">
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h3>Search</h3>
+    <div class="search-wrap">
+      <input type="text" id="searchInput" placeholder="Search PG name or locality…" />
+      <span class="search-icon">⌕</span>
+    </div>
+
+    <hr class="divider">
+
+    <h3>Budget (₹/month)</h3>
+    <div class="price-display" id="priceDisplay">Up to ₹20,000</div>
+    <div class="slider-wrap">
+      <div class="range-track"><div class="range-track-fill" id="trackFill"></div></div>
+      <input type="range" id="budgetSlider" min="3500" max="45000" value="20000" step="500">
+    </div>
+    <div class="slider-labels"><span>₹3,500</span><span>₹45,000</span></div>
+
+    <hr class="divider">
+
+    <h3>Sort By</h3>
+    <select class="sort-select" id="sortSelect">
+      <option value="relevance">Relevance</option>
+      <option value="price_asc">Price: Low to High</option>
+      <option value="price_desc">Price: High to Low</option>
+      <option value="metro_asc">Nearest Metro First</option>
+      <option value="office_asc">Nearest to Office</option>
+      <option value="office_price_asc">Near Office + Price: Low to High</option>
+      <option value="office_price_desc">Near Office + Price: High to Low</option>
+    </select>
+
+    <hr class="divider">
+
+    <h3>My Selection</h3>
+    <div class="check-group">
+      <label class="check-label"><input type="checkbox" id="cbFavorites"> Show Favorites Only ⭐</label>
+    </div>
+
+    <hr class="divider">
+
+    <h3>PG For</h3>
+    <div class="check-group">
+      <label class="check-label"><input type="checkbox" id="cbCoed" checked> Coed / Girls & Boys</label>
+      <label class="check-label"><input type="checkbox" id="cbBoys" checked> Boys only</label>
+    </div>
+
+    <hr class="divider">
+
+    <h3>Room Type</h3>
+    <div class="check-group">
+      <label class="check-label"><input type="checkbox" id="cbSingleOnly"> Single room only</label>
+    </div>
+
+    <hr class="divider">
+
+    <h3>Food</h3>
+    <div class="check-group">
+      <label class="check-label"><input type="checkbox" id="cbFoodAny" checked> Any</label>
+      <label class="check-label"><input type="checkbox" id="cbFoodIncl"> Food Included only</label>
+    </div>
+
+    <hr class="divider">
+
+    <h3>Locality</h3>
+    <select class="locality-select" id="localitySelect">
+      <option value="">All Localities</option>
+    </select>
+
+    <hr class="divider">
+
+    <h3>Metro Distance</h3>
+    <div class="check-group">
+      <label class="check-label"><input type="checkbox" id="metroClose"> Under 0.5 km 🟢</label>
+      <label class="check-label"><input type="checkbox" id="metroMed"> 0.5 – 2 km 🟡</label>
+      <label class="check-label"><input type="checkbox" id="metroFar"> Over 2 km 🔴</label>
+    </div>
+
+    <button class="clear-btn" onclick="clearFilters()">↺ Clear all filters</button>
+
+    <hr class="divider">
+
+    <h3>Backup & Restore</h3>
+    <div style="display: flex; gap: 8px; margin-top: 8px;">
+      <button class="action-btn" onclick="exportData()" title="Download your favorites as JSON">📤 Export</button>
+      <button class="action-btn" onclick="document.getElementById('importFile').click()" title="Import favorites from JSON">📥 Import</button>
+      <input type="file" id="importFile" style="display:none" accept=".json" onchange="importData(this)">
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+    <div class="grid" id="grid">
+      <div class="loading">Loading PGs…</div>
+    </div>
+  </main>
+</div>
+
+<!-- SCRIPTS -->
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
