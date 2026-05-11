@@ -42,6 +42,7 @@
       <option value="price_desc">Price: High to Low</option>
       <option value="metro_asc">Nearest Metro First</option>
       <option value="office_asc">Nearest to Office</option>
+      <option value="commute_asc">Fastest Commute</option>
       <option value="office_price_asc">Near Office + Price: Low to High</option>
       <option value="office_price_desc">Near Office + Price: High to Low</option>
     </select>
@@ -81,6 +82,31 @@
     <h3>Locality</h3>
     <select class="locality-select" id="localitySelect">
       <option value="">All Localities</option>
+    </select>
+
+    <hr class="divider">
+
+    <h3>Commute to Office</h3>
+    <select class="locality-select" id="filterCommuteTime" style="margin-bottom: 8px;">
+      <option value="any">Max Total Time: Any</option>
+      <option value="30">Under 30 mins</option>
+      <option value="45">Under 45 mins</option>
+      <option value="60">Under 60 mins</option>
+      <option value="90">Under 90 mins</option>
+    </select>
+
+    <select class="locality-select" id="filterWalkTime" style="margin-bottom: 8px;">
+      <option value="any">Max Walking: Any</option>
+      <option value="10">Under 10 mins</option>
+      <option value="20">Under 20 mins</option>
+      <option value="30">Under 30 mins</option>
+    </select>
+
+    <select class="locality-select" id="filterFare">
+      <option value="any">Max Fare: Any</option>
+      <option value="0">Free (₹0)</option>
+      <option value="20">Under ₹20</option>
+      <option value="50">Under ₹50</option>
     </select>
 
     <hr class="divider">

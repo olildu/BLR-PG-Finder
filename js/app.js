@@ -3,6 +3,21 @@ function fmtPrice(n) {
   return '₹' + n.toLocaleString('en-IN');
 }
 
+function parseTimeToMinutes(timeStr) {
+  if (!timeStr) return null;
+  let mins = 0;
+  if (timeStr.includes('hr')) {
+    const parts = timeStr.split('hr');
+    mins += parseInt(parts[0]) * 60;
+    if (parts[1].includes('min')) {
+      mins += parseInt(parts[1]);
+    }
+  } else if (timeStr.includes('min')) {
+    mins += parseInt(timeStr);
+  }
+  return mins;
+}
+
 function metroClass(km) {
   if (km === null) return 'none';
   if (km <= 0.5) return 'close';
@@ -210,13 +225,28 @@ function renderCard(pg, filters) {
       <a href="${propertyUrl}" target="_blank" class="card-name-link">
         <div class="card-name">${cleanName}</div>
       </a>
-      <div class="card-locality">📍 ${pg.locality}</div>
-      <div class="card-tags">
-        <span class="tag ${tagClass}">${tagLabel}</span>
-        ${pg.food === 'Included' ? '<span class="tag food">🍽 Food Incl.</span>' : ''}
-        ${pg.food === 'Extra' ? '<span class="tag">Food Extra</span>' : ''}
-        ${single ? '<span class="tag single">Single room</span>' : ''}
+      <div class="card-locality">
+        📍 ${pg.locality} ${pg.food === 'Included' ? '<span style="opacity:0.8; margin-left:6px;">· 🍽 Food Incl.</span>' : (pg.food === 'Extra' ? '<span style="opacity:0.8; margin-left:6px;">· Food Extra</span>' : '')}
       </div>
+      
+      ${pg.commute_time ? `
+      <div class="card-stats commute-stats">
+        <div class="stat-item">
+          <div class="stat-label">Commute</div>
+          <div class="stat-val">🚌 ${pg.commute_time}</div>
+        </div>
+        ${pg.commute_walking !== null ? `
+        <div class="stat-item">
+          <div class="stat-label">Walking</div>
+          <div class="stat-val">🚶 ${pg.commute_walking}</div>
+        </div>` : ''}
+        ${pg.commute_cost !== null ? `
+        <div class="stat-item">
+          <div class="stat-label">Fare</div>
+          <div class="stat-val">₹${pg.commute_cost}</div>
+        </div>` : ''}
+      </div>
+      ` : ''}
       
       <div class="card-prices">
         ${single ? `<div class="price-item"><div class="price-label">Single</div><div class="price-val">${fmtPrice(single)}</div></div>` : ''}
@@ -229,23 +259,12 @@ function renderCard(pg, filters) {
         <a href="${officeUrl}" target="_blank" class="direction-btn office" title="Directions to Indiranagar Office">🏢 To Office</a>
       </div>
 
+
       <div class="card-actions preferences">
         <button class="action-btn favorite ${preference === 'favorite' ? 'active' : ''}" type="button" onclick="togglePreference('${pg.url}', 'favorite')">${preference === 'favorite' ? 'Favorited' : 'Favorite'}</button>
         <button class="action-btn dislike ${preference === 'disliked' ? 'active' : ''}" type="button" onclick="togglePreference('${pg.url}', 'dislike')">${preference === 'disliked' ? 'Disliked' : 'Dislike'}</button>
       </div>
 
-      ${targetDistance !== null ? `<div class="card-tags"><span class="tag proximity">~${targetDistance.toFixed(1)} km from Defence Colony, Indiranagar</span></div>` : ''}
-      
-      <div class="card-metro ${mc === 'far' ? 'far' : ''}">
-        ${metroEmoji(pg.metro_km)} 
-        ${pg.metro
-      ? `<span>${metroLabel(pg.metro_km)} · ${pg.metro.replace('Metro Station', 'Metro').replace('Upcoming Purple Line ', '').replace('Upcoming Yellow Line ', '').replace('Upcoming ', '')}</span>`
-      : '<span style="color:var(--muted)">Metro info unavailable</span>'}
-      </div>
-      
-      <div style="margin-top: 12px; font-size: 11px; opacity: 0.6;">
-         <a href="${propertyUrl}" target="_blank" style="color: inherit; text-decoration: underline;">View on Google Maps ↗</a>
-      </div>
     </div>
   </div>`;
 }
@@ -265,6 +284,9 @@ function getFilters() {
     metroClose: document.getElementById('metroClose').checked,
     metroMed: document.getElementById('metroMed').checked,
     metroFar: document.getElementById('metroFar').checked,
+    maxCommute: document.getElementById('filterCommuteTime').value,
+    maxWalk: document.getElementById('filterWalkTime').value,
+    maxFare: document.getElementById('filterFare').value,
   };
 }
 
@@ -287,6 +309,20 @@ function filterAndRender() {
 
     // Food
     if (f.foodIncl && !f.foodAny && pg.food !== 'Included') return false;
+
+    // Commute Filters
+    if (f.maxCommute !== 'any') {
+      const commuteMins = parseTimeToMinutes(pg.commute_time);
+      if (commuteMins === null || commuteMins > parseInt(f.maxCommute)) return false;
+    }
+    if (f.maxWalk !== 'any') {
+      const walkMins = parseTimeToMinutes(pg.commute_walking);
+      if (walkMins === null || walkMins > parseInt(f.maxWalk)) return false;
+    }
+    if (f.maxFare !== 'any') {
+      if (pg.commute_cost === null || pg.commute_cost === undefined) return false;
+      if (pg.commute_cost > parseInt(f.maxFare)) return false;
+    }
 
     return true;
   });
@@ -324,7 +360,13 @@ function filterAndRender() {
   });
 
   // Sort
-  if (f.sortBy === 'price_asc') {
+  if (f.sortBy === 'commute_asc') {
+    pgs.sort((a, b) => {
+      const ad = parseTimeToMinutes(a.commute_time) ?? 999;
+      const bd = parseTimeToMinutes(b.commute_time) ?? 999;
+      return ad - bd;
+    });
+  } else if (f.sortBy === 'price_asc') {
     pgs.sort((a, b) => (getEffectivePrice(a, f.singleOnly) || 99999) - (getEffectivePrice(b, f.singleOnly) || 99999));
   } else if (f.sortBy === 'price_desc') {
     pgs.sort((a, b) => (getEffectivePrice(b, f.singleOnly) || 0) - (getEffectivePrice(a, f.singleOnly) || 0));
@@ -414,9 +456,9 @@ document.getElementById('cbFoodIncl').addEventListener('change', function () {
 });
 
 // All other controls
-['searchInput', 'sortSelect', 'localitySelect', 'cbCoed', 'cbBoys', 'cbSingleOnly', 'cbFavorites', 'metroClose', 'metroMed', 'metroFar']
+['searchInput', 'sortSelect', 'localitySelect', 'cbCoed', 'cbBoys', 'cbSingleOnly', 'cbFavorites', 'metroClose', 'metroMed', 'metroFar', 'filterCommuteTime', 'filterWalkTime', 'filterFare']
   .forEach(id => document.getElementById(id).addEventListener('input', filterAndRender));
-['sortSelect', 'localitySelect', 'cbCoed', 'cbBoys', 'cbSingleOnly', 'cbFavorites', 'metroClose', 'metroMed', 'metroFar']
+['sortSelect', 'localitySelect', 'cbCoed', 'cbBoys', 'cbSingleOnly', 'cbFavorites', 'metroClose', 'metroMed', 'metroFar', 'filterCommuteTime', 'filterWalkTime', 'filterFare']
   .forEach(id => document.getElementById(id).addEventListener('change', filterAndRender));
 
 function clearFilters() {
@@ -433,6 +475,9 @@ function clearFilters() {
   document.getElementById('metroClose').checked = false;
   document.getElementById('metroMed').checked = false;
   document.getElementById('metroFar').checked = false;
+  document.getElementById('filterCommuteTime').value = 'any';
+  document.getElementById('filterWalkTime').value = 'any';
+  document.getElementById('filterFare').value = 'any';
   updateSlider();
   filterAndRender();
 }
