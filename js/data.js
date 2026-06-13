@@ -1,5 +1,1030 @@
 const ALL_PGS = [
   {
+    "name": "HelloWorld Indiranagar",
+    "locality": "Domlur",
+    "url": "https://thehelloworld.com/property/610",
+    "for": "Girls & Boys",
+    "min_price": 9999,
+    "max_price": 27999,
+    "rooms": {
+      "Single Room": 22999,
+      "Two Sharing": 9999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/610/srp/desktop/1572848029NXC.jpeg",
+    "commute_time": "37 min",
+    "commute_cost": 12,
+    "commute_walking": "30 min"
+  },
+  {
+    "name": "HelloWorld Radiance",
+    "locality": "Taverekere Main Road",
+    "url": "https://thehelloworld.com/property/1103",
+    "for": "Girls & Boys",
+    "min_price": 12000,
+    "max_price": 23000,
+    "rooms": {
+      "Single Room": 23000,
+      "Two Sharing": 12000
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1103/srp/desktop/1719140236NDSC04589-HDR.jpg.jpeg",
+    "commute_time": "49 min",
+    "commute_cost": 23,
+    "commute_walking": "25 min"
+  },
+  {
+    "name": "HelloWorld Scorpio",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/819",
+    "for": "Girls & Boys",
+    "min_price": 13999,
+    "max_price": 25999,
+    "rooms": {
+      "Single Room": 25999,
+      "Two Sharing": 13999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/819/srp/desktop/1713185109NDSC08108-HDR.jpg.jpeg",
+    "commute_time": "49 min",
+    "commute_cost": null,
+    "commute_walking": "18 min"
+  },
+  {
+    "name": "HelloWorld 18thMain",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/800",
+    "for": "Girls & Boys",
+    "min_price": 14999,
+    "max_price": 38999,
+    "rooms": {
+      "Single Room": 28999,
+      "Two Sharing": 14999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/800/srp/desktop/1712312854NDSC08249-HDR.jpg.jpeg",
+    "commute_time": "1 hr 1 min",
+    "commute_cost": null,
+    "commute_walking": "30 min"
+  },
+  {
+    "name": "HelloWorld Bellandur44",
+    "locality": "Bellandur",
+    "url": "https://thehelloworld.com/property/1200",
+    "for": "Girls & Boys",
+    "min_price": 10599,
+    "max_price": 22999,
+    "rooms": {
+      "Single Room": 21599,
+      "Two Sharing": 10599
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1200/srp/desktop/1756874980NWhatsApp Image 2025-09-03 at 10.18.45 AM (1).jpeg.jpeg",
+    "commute_time": "1 hr 23 min",
+    "commute_cost": 47,
+    "commute_walking": "27 min"
+  },
+  {
+    "name": "HelloWorld Oswald",
+    "locality": "Kadubeesanahalli",
+    "url": "https://thehelloworld.com/property/831",
+    "for": "Girls & Boys",
+    "min_price": 11500,
+    "max_price": 20000,
+    "rooms": {
+      "Single Room": 20000,
+      "Two Sharing": 11500
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/831/srp/desktop/1713261901NDSC09149-HDR.jpg.jpeg",
+    "commute_time": "1 hr 19 min",
+    "commute_cost": 35,
+    "commute_walking": "31 min"
+  },
+  {
+    "name": "HelloWorld Daffodil",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/623",
+    "for": "Girls & Boys",
+    "min_price": 12999,
+    "max_price": 22999,
+    "rooms": {
+      "Single Room": 22999,
+      "Two Sharing": 12999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/623/srp/desktop/1570783003Ngbe.jpeg",
+    "commute_time": "1 hr 13 min",
+    "commute_cost": 46,
+    "commute_walking": "17 min"
+  },
+  {
+    "name": "HelloWorld Domlur",
+    "locality": "Domlur",
+    "url": "https://thehelloworld.com/property/1138",
+    "for": "Girls & Boys",
+    "min_price": 16999,
+    "max_price": 42999,
+    "rooms": {
+      "Single Room": 31999,
+      "Two Sharing": 16999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1138/srp/desktop/1741004509NDSC00337-HDR.jpg.jpeg",
+    "commute_time": "31 min",
+    "commute_cost": 6,
+    "commute_walking": "27 min"
+  },
+  {
+    "name": "HelloWorld BrookeField",
+    "locality": "Brookefield",
+    "url": "https://thehelloworld.com/property/749",
+    "for": "Girls & Boys",
+    "min_price": 11000,
+    "max_price": 21000,
+    "rooms": {
+      "Single Room": 20000,
+      "Two Sharing": 11000
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/749/srp/desktop/1591948915Nw.jpeg",
+    "commute_time": "54 min",
+    "commute_cost": 60,
+    "commute_walking": "23 min"
+  },
+  {
+    "name": "HelloWorld Tranquil",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/609",
+    "for": "Girls & Boys",
+    "min_price": 15999,
+    "max_price": 52999,
+    "rooms": {
+      "Single Room": 29999,
+      "Two Sharing": 15999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/609/srp/desktop/1670405464N1568624756Nplk.jpeg.jpeg",
+    "commute_time": "1 hr 16 min",
+    "commute_cost": 46,
+    "commute_walking": "22 min"
+  },
+  {
+    "name": "HelloWorld Cairo",
+    "locality": "Kadubeesanahalli",
+    "url": "https://thehelloworld.com/property/830",
+    "for": "Girls & Boys",
+    "min_price": 11000,
+    "max_price": 20000,
+    "rooms": {
+      "Single Room": 20000,
+      "Two Sharing": 11000
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/830/srp/desktop/1712576572NDSC08986-HDR.jpg.jpeg",
+    "commute_time": "1 hr 21 min",
+    "commute_cost": 42,
+    "commute_walking": "33 min"
+  },
+  {
+    "name": "HelloWorld Arch35",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/1183",
+    "for": "Girls & Boys",
+    "min_price": 14000,
+    "max_price": 70000,
+    "rooms": {
+      "Single Room": 27000,
+      "Two Sharing": 14000
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1183/srp/desktop/1749459885NDSC09908-HDR.jpg.jpeg",
+    "commute_time": "1 hr 19 min",
+    "commute_cost": 46,
+    "commute_walking": "25 min"
+  },
+  {
+    "name": "HelloWorld 16thMain",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/1220",
+    "for": "Girls & Boys",
+    "min_price": 17999,
+    "max_price": 32999,
+    "rooms": {
+      "Single Room": 29999,
+      "Two Sharing": 17999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1220/srp/desktop/1764676885NWhatsApp Image 2025-12-02 at 5.26.28 PM (8).jpeg.jpeg",
+    "commute_time": "1 hr 4 min",
+    "commute_cost": null,
+    "commute_walking": "33 min"
+  },
+  {
+    "name": "HelloWorld 1stMain",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/1152",
+    "for": "Girls & Boys",
+    "min_price": 15999,
+    "max_price": 29999,
+    "rooms": {
+      "Single Room": 27999,
+      "Two Sharing": 15999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1152/srp/desktop/1741004006NDSC00142-HDR.jpg.jpeg",
+    "commute_time": "47 min",
+    "commute_cost": 23,
+    "commute_walking": "21 min"
+  },
+  {
+    "name": "HelloWorld 19thMain",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/163",
+    "for": "Girls & Boys",
+    "min_price": 16999,
+    "max_price": 31999,
+    "rooms": {
+      "Single Room": 30999,
+      "Two Sharing": 16999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/519/srp/desktop/1562132721Nsrp.jpeg",
+    "commute_time": "1 hr 3 min",
+    "commute_cost": null,
+    "commute_walking": "32 min"
+  },
+  {
+    "name": "HelloWorld 17thMain",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/1163",
+    "for": "Girls & Boys",
+    "min_price": 17999,
+    "max_price": 29999,
+    "rooms": {
+      "Single Room": 28999,
+      "Two Sharing": 17999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1163/srp/desktop/1743398468NDSC04152-HDR.jpg.jpeg",
+    "commute_time": "1 hr 4 min",
+    "commute_cost": null,
+    "commute_walking": "33 min"
+  },
+  {
+    "name": "HelloWorld Castle Del Monte",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/1045",
+    "for": "Girls & Boys",
+    "min_price": 14999,
+    "max_price": 29999,
+    "rooms": {
+      "Single Room": 25999,
+      "Two Sharing": 14999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1045/srp/desktop/1712658082NDSC08042-HDR.jpg.jpeg",
+    "commute_time": "56 min",
+    "commute_cost": 23,
+    "commute_walking": "30 min"
+  },
+  {
+    "name": "HelloWorld Vienna",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/1185",
+    "for": "Girls & Boys",
+    "min_price": 14000,
+    "max_price": 26000,
+    "rooms": {
+      "Single Room": 25000,
+      "Two Sharing": 14000
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1185/srp/desktop/1750755450NDSC01228-HDR.jpg.jpeg",
+    "commute_time": "1 hr 25 min",
+    "commute_cost": 46,
+    "commute_walking": "31 min"
+  },
+  {
+    "name": "HelloWorld Castle Prague",
+    "locality": "Btm Layout",
+    "url": "https://thehelloworld.com/property/1010",
+    "for": "Girls & Boys",
+    "min_price": 13500,
+    "max_price": 32000,
+    "rooms": {
+      "Single Room": 24000,
+      "Two Sharing": 13500
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1010/srp/desktop/1713184667NDSC08621-HDR.jpg.jpeg",
+    "commute_time": "44 min",
+    "commute_cost": 23,
+    "commute_walking": "18 min"
+  },
+  {
+    "name": "HelloWorld Acropolis",
+    "locality": "Sg Palya",
+    "url": "https://thehelloworld.com/property/1206",
+    "for": "Girls & Boys",
+    "min_price": 10999,
+    "max_price": 29999,
+    "rooms": {
+      "Single Room": 23999,
+      "Two Sharing": 10999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1206/srp/desktop/1758883019NWhatsApp Image 2025-09-26 at 4.05.12 PM (3).jpeg.jpeg",
+    "commute_time": "54 min",
+    "commute_cost": 29,
+    "commute_walking": "25 min"
+  },
+  {
+    "name": "HelloWorld Adobe",
+    "locality": "Kadubeesanahalli",
+    "url": "https://thehelloworld.com/property/1037",
+    "for": "Girls & Boys",
+    "min_price": 11500,
+    "max_price": 19999,
+    "rooms": {
+      "Single Room": 19999,
+      "Two Sharing": 11500
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1037/srp/desktop/1712326078NDSC09236-HDR.jpg.jpeg",
+    "commute_time": "1 hr 36 min",
+    "commute_cost": 46,
+    "commute_walking": "32 min"
+  },
+  {
+    "name": "HelloWorld Lancaster",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/1165",
+    "for": "Girls & Boys",
+    "min_price": 17999,
+    "max_price": 32999,
+    "rooms": {
+      "Single Room": 32999,
+      "Two Sharing": 17999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1165/srp/desktop/1744004562NDSC06311-HDR (1) (1).jpg.jpeg",
+    "commute_time": "1 hr 3 min",
+    "commute_cost": null,
+    "commute_walking": "32 min"
+  },
+  {
+    "name": "HelloWorld HRBR",
+    "locality": "Hrbr Layout",
+    "url": "https://thehelloworld.com/property/612",
+    "for": "Girls & Boys",
+    "min_price": 11000,
+    "max_price": 23000,
+    "rooms": {
+      "Single Room": 21000,
+      "Two Sharing": 11000
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/612/srp/desktop/1568273931N897j.jpeg",
+    "commute_time": "1 hr 18 min",
+    "commute_cost": 46,
+    "commute_walking": "13 min"
+  },
+  {
+    "name": "HelloWorld Citadel",
+    "locality": "Btm Layout",
+    "url": "https://thehelloworld.com/property/1115",
+    "for": "Girls & Boys",
+    "min_price": 13500,
+    "max_price": 23000,
+    "rooms": {
+      "Single Room": 19999,
+      "Two Sharing": 13500
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1115/srp/desktop/1721905059NDSC06127-HDR.jpg.jpeg",
+    "commute_time": "1 hr 2 min",
+    "commute_cost": 33,
+    "commute_walking": "24 min"
+  },
+  {
+    "name": "HelloWorld AECS",
+    "locality": "Aecs Layout",
+    "url": "https://thehelloworld.com/property/607",
+    "for": "Girls & Boys",
+    "min_price": 29999,
+    "max_price": 29999,
+    "rooms": {
+      "Single Room": 29999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/607/srp/desktop/1568097775Na.jpeg",
+    "commute_time": "1 hr 7 min",
+    "commute_cost": 60,
+    "commute_walking": "35 min"
+  },
+  {
+    "name": "HelloWorld Castle Bran",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/1079",
+    "for": "Girls & Boys",
+    "min_price": 13500,
+    "max_price": 24000,
+    "rooms": {
+      "Single Room": 24000,
+      "Two Sharing": 13500
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1079/srp/desktop/1712577202NDSC07937-HDR.jpg.jpeg",
+    "commute_time": "53 min",
+    "commute_cost": null,
+    "commute_walking": "22 min"
+  },
+  {
+    "name": "HelloWorld Ananta",
+    "locality": "Mahadevpura",
+    "url": "https://thehelloworld.com/property/1159",
+    "for": "Girls & Boys",
+    "min_price": 7999,
+    "max_price": 14999,
+    "rooms": {
+      "Single Room": 13999,
+      "Two Sharing": 7999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1159/srp/desktop/1741437881NDSC01417-HDR.jpg.jpeg",
+    "commute_time": "48 min",
+    "commute_cost": 22,
+    "commute_walking": "25 min"
+  },
+  {
+    "name": "HelloWorld Trinity30",
+    "locality": "Btm Layout",
+    "url": "https://thehelloworld.com/property/1177",
+    "for": "Girls & Boys",
+    "min_price": 14999,
+    "max_price": 27999,
+    "rooms": {
+      "Single Room": 25999,
+      "Two Sharing": 14999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1177/srp/desktop/1747386635NQueen2.jpg.jpeg",
+    "commute_time": "1 hr 23 min",
+    "commute_cost": 41,
+    "commute_walking": "16 min"
+  },
+  {
+    "name": "HelloWorld Veridian69",
+    "locality": "Arekere",
+    "url": "https://thehelloworld.com/property/1198",
+    "for": "Girls & Boys",
+    "min_price": 13499,
+    "max_price": 35999,
+    "rooms": {
+      "Single Room": 24000,
+      "Two Sharing": 13499
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1198/srp/desktop/1754054384NWhatsApp Image 2025-08-01 at 6.48.49 PM (12).jpeg.jpeg",
+    "commute_time": "1 hr 29 min",
+    "commute_cost": 51,
+    "commute_walking": "8 min"
+  },
+  {
+    "name": "HelloWorld 27thMain",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/1114",
+    "for": "Girls & Boys",
+    "min_price": 16000,
+    "max_price": 30000,
+    "rooms": {
+      "Single Room": 28000,
+      "Two Sharing": 16000
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1114/srp/desktop/1721905610NDSC06505-HDR.jpg.jpeg",
+    "commute_time": "1 hr 9 min",
+    "commute_cost": 46,
+    "commute_walking": "14 min"
+  },
+  {
+    "name": "HelloWorld Grid53",
+    "locality": "Doddanekundi",
+    "url": "https://thehelloworld.com/property/1222",
+    "for": "Girls & Boys",
+    "min_price": 8999,
+    "max_price": 20999,
+    "rooms": {
+      "Single Room": 17999,
+      "Two Sharing": 8999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1222/srp/desktop/1766557341NWhatsApp Image 2025-12-24 at 11.50.47 AM (11).jpeg.jpeg",
+    "commute_time": "39 min",
+    "commute_cost": 23,
+    "commute_walking": "18 min"
+  },
+  {
+    "name": "HelloWorld Arden",
+    "locality": "Kudlu",
+    "url": "https://thehelloworld.com/property/1016",
+    "for": "Girls & Boys",
+    "min_price": 19999,
+    "max_price": 25999,
+    "rooms": {
+      "Single Room": 19999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1016/srp/desktop/1712570440NDSC08528-HDR.jpg.jpeg",
+    "commute_time": "1 hr 10 min",
+    "commute_cost": 41,
+    "commute_walking": "14 min"
+  },
+  {
+    "name": "HelloWorld Hanover",
+    "locality": "Hrbr Layout",
+    "url": "https://thehelloworld.com/property/1189",
+    "for": "Girls & Boys",
+    "min_price": 9999,
+    "max_price": 21999,
+    "rooms": {
+      "Single Room": 19999,
+      "Two Sharing": 9999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1189/srp/desktop/1750755670NDSC01405-HDR.jpg.jpeg",
+    "commute_time": "56 min",
+    "commute_cost": null,
+    "commute_walking": "23 min"
+  },
+  {
+    "name": "HelloWorld Nexus",
+    "locality": "Ejipura",
+    "url": "https://thehelloworld.com/property/1057",
+    "for": "Girls & Boys",
+    "min_price": 32999,
+    "max_price": 32999,
+    "rooms": {
+      "Single Room": 32999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1057/srp/desktop/1713261595NDSC08761-HDR.jpg.jpeg",
+    "commute_time": "46 min",
+    "commute_cost": 18,
+    "commute_walking": "31 min"
+  },
+  {
+    "name": "HelloWorld Lhasa",
+    "locality": "Koramangala",
+    "url": "https://thehelloworld.com/property/1123",
+    "for": "Girls & Boys",
+    "min_price": 17500,
+    "max_price": 33000,
+    "rooms": {
+      "Single Room": 28000,
+      "Two Sharing": 17500
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1123/srp/desktop/1725598287NDSC01433-HDR.jpg.jpeg",
+    "commute_time": "38 min",
+    "commute_cost": 18,
+    "commute_walking": "19 min"
+  },
+  {
+    "name": "HelloWorld Bali",
+    "locality": "Indiranagar",
+    "url": "https://thehelloworld.com/property/1121",
+    "for": "Girls & Boys",
+    "min_price": 17000,
+    "max_price": 32000,
+    "rooms": {
+      "Single Room": 32000,
+      "Two Sharing": 17000
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1121/srp/desktop/1725602834NDSC01544-HDR.jpg.jpeg",
+    "commute_time": "17 min",
+    "commute_cost": 6,
+    "commute_walking": "13 min"
+  },
+  {
+    "name": "HelloWorld CornerHouse",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/741",
+    "for": "Girls & Boys",
+    "min_price": 37999,
+    "max_price": 37999,
+    "rooms": {
+      "Single Room": 37999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/741/srp/desktop/1579951882Nf.jpeg",
+    "commute_time": "1 hr 20 min",
+    "commute_cost": 46,
+    "commute_walking": "24 min"
+  },
+  {
+    "name": "HelloWorld Felicia",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/1000",
+    "for": "Girls & Boys",
+    "min_price": 27999,
+    "max_price": 31999,
+    "rooms": {
+      "Single Room": 27999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1000/srp/desktop/1712907029NDSC08414-HDR.jpg.jpeg",
+    "commute_time": "1 hr 7 min",
+    "commute_cost": 41,
+    "commute_walking": "13 min"
+  },
+  {
+    "name": "HelloWorld Kyoto",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/1124",
+    "for": "Girls & Boys",
+    "min_price": 17000,
+    "max_price": 33000,
+    "rooms": {
+      "Single Room": 32000,
+      "Two Sharing": 17000
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1124/srp/desktop/1739255696NDSC01910-HDR.jpg.jpeg",
+    "commute_time": "51 min",
+    "commute_cost": null,
+    "commute_walking": "20 min"
+  },
+  {
+    "name": "HelloWorld 15thMain",
+    "locality": "Hsr Layout",
+    "url": "https://thehelloworld.com/property/1085",
+    "for": "Girls & Boys",
+    "min_price": 29999,
+    "max_price": 29999,
+    "rooms": {
+      "Single Room": 29999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1085/srp/desktop/1712312332NDSC08330-HDR.jpg.jpeg",
+    "commute_time": "53 min",
+    "commute_cost": null,
+    "commute_walking": "22 min"
+  },
+  {
+    "name": "HelloWorld Lakeview",
+    "locality": "Btm Layout",
+    "url": "https://thehelloworld.com/property/675",
+    "for": "Girls & Boys",
+    "min_price": 14999,
+    "max_price": 45999,
+    "rooms": {
+      "Single Room": 25999,
+      "Two Sharing": 14999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/675/srp/desktop/1575891386Nsac.jpeg",
+    "commute_time": "1 hr 4 min",
+    "commute_cost": 29,
+    "commute_walking": "24 min"
+  },
+  {
+    "name": "HelloWorld Fern",
+    "locality": "Harlur",
+    "url": "https://thehelloworld.com/property/1088",
+    "for": "Girls & Boys",
+    "min_price": 25000,
+    "max_price": 45000,
+    "rooms": {
+      "Single Room": 25000
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1088/srp/desktop/1712141910NDSC08863-HDR.jpg.jpeg",
+    "commute_time": "1 hr 23 min",
+    "commute_cost": 59,
+    "commute_walking": "23 min"
+  },
+  {
+    "name": "HelloWorld Euphoria",
+    "locality": "Bommanahalli",
+    "url": "https://thehelloworld.com/property/1113",
+    "for": "Girls & Boys",
+    "min_price": 11999,
+    "max_price": 23000,
+    "rooms": {
+      "Single Room": 21999,
+      "Two Sharing": 11999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1113/srp/desktop/1721897895NDSC06361-HDR.jpg.jpeg",
+    "commute_time": "1 hr 1 min",
+    "commute_cost": 35,
+    "commute_walking": "21 min"
+  },
+  {
+    "name": "HelloWorld Ravello16",
+    "locality": "Koramangala",
+    "url": "https://thehelloworld.com/property/1195",
+    "for": "Girls & Boys",
+    "min_price": 17999,
+    "max_price": 39999,
+    "rooms": {
+      "Single Room": 33999,
+      "Two Sharing": 17999
+    },
+    "rating": 4.0,
+    "food": "Not Included",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://images.thehelloworld.com/property/1195/srp/desktop/1753857964NWhatsApp Image 2025-07-30 at 12.14.31 PM (3).jpeg.jpeg",
+    "commute_time": "36 min",
+    "commute_cost": 18,
+    "commute_walking": "19 min"
+  },
+  {
+    "name": "Colive 190 Sunrise",
+    "locality": "Marathahalli",
+    "url": "https://www.colive.com/bangalore/pg-in-marathahalli/colive-190-sunrise/colive_190",
+    "for": "Girls & Boys",
+    "min_price": 12000,
+    "max_price": 12000,
+    "rooms": {
+      "Single Room": 12000
+    },
+    "rating": 3.6,
+    "food": "Extra",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://www.colive.com/utility/files/gallery/560x340/y2hohky5xuyag4zqdtee.20250226123053-560x340.webp",
+    "commute_time": "58 min",
+    "commute_cost": 30,
+    "commute_walking": "24 min"
+  },
+  {
+    "name": "Colive 172 Orange",
+    "locality": "Marathahalli",
+    "url": "https://www.colive.com/bangalore/pg-in-marathahalli/colive-172-orange/colive_172",
+    "for": "Girls & Boys",
+    "min_price": 13000,
+    "max_price": 13000,
+    "rooms": {
+      "Single Room": 13000
+    },
+    "rating": 3.4,
+    "food": "Extra",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://www.colive.com/utility/files/gallery/560x340/ggdnouqhlx6qebdvvmcf.20250428061009-560x340.webp",
+    "commute_time": "57 min",
+    "commute_cost": 60,
+    "commute_walking": "28 min"
+  },
+  {
+    "name": "Colive 1258 Phoenix",
+    "locality": "Marathahalli",
+    "url": "https://www.colive.com/bangalore/pg-in-marathahalli/colive-1258-phoenix-/colive_ppm_57259",
+    "for": "Girls & Boys",
+    "min_price": 18000,
+    "max_price": 18000,
+    "rooms": {
+      "Single Room": 18000
+    },
+    "rating": 0,
+    "food": "Extra",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://www.colive.com/utility/files/gallery/560x340/img82412.20260317043602-560x340.jpg",
+    "commute_time": "52 min",
+    "commute_cost": 29,
+    "commute_walking": "19 min"
+  },
+  {
+    "name": "Colive 1200 Birmingham",
+    "locality": "Silk Board",
+    "url": "https://www.colive.com/bangalore/pg-in-silk-board/colive-1200-birmingham/colive_ppm_53286",
+    "for": "Girls & Boys",
+    "min_price": 21000,
+    "max_price": 21000,
+    "rooms": {
+      "Single Room": 21000
+    },
+    "rating": 4,
+    "food": "Extra",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://www.colive.com/utility/files/gallery/560x340/img2161.20250220025739-560x340.webp",
+    "commute_time": "51 min",
+    "commute_cost": 29,
+    "commute_walking": "15 min"
+  },
+  {
+    "name": "Colive 589 Pittsburgh",
+    "locality": "Bannerghatta",
+    "url": "https://www.colive.com/bangalore/pg-in-bannerghatta-/colive-589-pittsburgh/colive_ppm_31047",
+    "for": "Girls & Boys",
+    "min_price": 13000,
+    "max_price": 13000,
+    "rooms": {
+      "Single Room": 13000
+    },
+    "rating": 3.4,
+    "food": "Extra",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://www.colive.com/utility/files/gallery/560x340/img20221222163935.20250213043439-560x340.webp",
+    "commute_time": "1 hr 4 min",
+    "commute_cost": 35,
+    "commute_walking": "23 min"
+  },
+  {
+    "name": "Colive 1118 Marysville",
+    "locality": "Electronic City",
+    "url": "https://www.colive.com/bangalore/pg-in-electronic-city/colive-1118-marysville/colive_ppm_48412",
+    "for": "Girls & Boys",
+    "min_price": 12000,
+    "max_price": 12000,
+    "rooms": {
+      "Single Room": 12000
+    },
+    "rating": 3.5,
+    "food": "Extra",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://www.colive.com/utility/files/gallery/560x340/screenshot-20250220-111427.20250220111552-560x340.png",
+    "commute_time": "1 hr 14 min",
+    "commute_cost": 41,
+    "commute_walking": "18 min"
+  },
+  {
+    "name": "Colive 1286 Shelton",
+    "locality": "Marathahalli",
+    "url": "https://www.colive.com/bangalore/pg-in-marathahalli/colive-1286-shelton/colive_ppm_57337",
+    "for": "Girls & Boys",
+    "min_price": 18000,
+    "max_price": 18000,
+    "rooms": {
+      "Single Room": 18000
+    },
+    "rating": 0,
+    "food": "Extra",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://www.colive.com/utility/files/gallery/560x340/img9169.20260421122603-560x340.jpg",
+    "commute_time": "50 min",
+    "commute_cost": null,
+    "commute_walking": "27 min"
+  },
+  {
+    "name": "Colive 1314 Gateway",
+    "locality": "KR Puram",
+    "url": "https://www.colive.com/bangalore/pg-in-kr-puram/colive-1314-gateway/colive_ppm_57344",
+    "for": "Girls & Boys",
+    "min_price": 23000,
+    "max_price": 23000,
+    "rooms": {
+      "Single Room": 23000
+    },
+    "rating": 0,
+    "food": "Extra",
+    "metro": "",
+    "metro_km": null,
+    "image": "https://www.colive.com/utility/files/gallery/560x340/colive-1314-gateway-52556-202604290536182558248-560x340.jpg",
+    "commute_time": "45 min",
+    "commute_cost": 24,
+    "commute_walking": "20 min"
+  },
+  {
     "name": "Zolo Laurel PG/Paying Guest",
     "locality": "Whitefield",
     "url": "https://www.magicbricks.com/propertyDetail/zolo-laurel-pg-whitefield-in-bangalore&pgid=4d42343333303737677261646532",
@@ -545,7 +1570,7 @@ const ALL_PGS = [
     "metro": "Purple Line: Indiranagar Metro Station",
     "metro_km": 0.4,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Feb/13/Photo_h400_w540/GR2-271191-1271569_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -1602,9 +2627,9 @@ const ALL_PGS = [
     "metro": "Seetharam Palya Metro Station",
     "metro_km": 3.2,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Apr/09/Photo_h400_w540/GR2-528719-2752159_400_540.jpg",
-    "commute_time": null,
-    "commute_cost": null,
-    "commute_walking": null
+    "commute_time": "51 min",
+    "commute_cost": 23,
+    "commute_walking": "30 min"
   },
   {
     "name": "COLIVE FAIRFIELD PG/Paying Guest",
@@ -1878,7 +2903,7 @@ const ALL_PGS = [
     "metro": "Benniganahalli Metro Station",
     "metro_km": 1.2,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/May/01/Photo_h400_w540/GR2-537035-2769211_400_540.jpeg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -2225,7 +3250,7 @@ const ALL_PGS = [
     "metro": "Benniganahalli Metro Station",
     "metro_km": 7.2,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/May/06/Photo_h400_w540/GR2-537687-2772743_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -2266,7 +3291,7 @@ const ALL_PGS = [
     "metro": "",
     "metro_km": null,
     "image": "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Feb/20/Photo_h400_w540/GR1-10426-278345_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -2324,7 +3349,7 @@ const ALL_PGS = [
     "metro": "",
     "metro_km": null,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Jul/10/Photo_h400_w540/GR2-202357-975507_400_540.jpeg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -2363,7 +3388,7 @@ const ALL_PGS = [
     "metro": "",
     "metro_km": null,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2020/Mar/15/Photo_h400_w540/GR2-72533-297749_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -2602,7 +3627,7 @@ const ALL_PGS = [
     "metro": "Thalaghattapura Metro Station",
     "metro_km": 1.6,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jul/09/Photo_h400_w540/GR2-302377-1427021_400_540.jpeg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -2643,7 +3668,7 @@ const ALL_PGS = [
     "metro": "Garudacharpalya Metro Station",
     "metro_km": 2.2,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Aug/03/Photo_h400_w540/GR2-212383-1019531_400_540.jpeg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -2835,7 +3860,7 @@ const ALL_PGS = [
     "metro": "",
     "metro_km": null,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Mar/31/Photo_h400_w540/GR2-168503-822483_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -2956,7 +3981,7 @@ const ALL_PGS = [
     "metro": "Hongasandra Metro Station",
     "metro_km": 0.7,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Sep/20/Photo_h400_w540/GR2-234241-1106987_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -2998,7 +4023,7 @@ const ALL_PGS = [
     "metro": "J P Nagar 4Th Phase Metro Station",
     "metro_km": 2.5,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Oct/21/Photo_h400_w540/GR2-244449-1149633_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -3059,7 +4084,7 @@ const ALL_PGS = [
     "metro": "Seetharam Palya Metro Station",
     "metro_km": 3.1,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/26/Photo_h400_w540/GR2-253519-1189435_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -3080,7 +4105,7 @@ const ALL_PGS = [
     "metro": "Kudlu Gate Metro Station",
     "metro_km": 3.7,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Dec/01/Photo_h400_w540/GR2-254935-1194937_400_540.jpeg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -3992,7 +5017,7 @@ const ALL_PGS = [
     "metro": "BTM Layout Metro Station",
     "metro_km": 1.3,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/12/Photo_h400_w540/GR2-523321-2680465_400_540.png",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -4280,7 +5305,7 @@ const ALL_PGS = [
     "metro": "J P Nagar 4Th Phase Metro Station",
     "metro_km": 3.0,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Nov/15/Photo_h400_w540/GR2-329645-1555819_400_540.jpeg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -4299,7 +5324,7 @@ const ALL_PGS = [
     "metro": "Benniganahalli Metro Station",
     "metro_km": 0.2,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Nov/18/Photo_h400_w540/GR2-329909-1559173_400_540.jpeg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -4420,7 +5445,7 @@ const ALL_PGS = [
     "metro": "Green Line Silk Institute Metro Station",
     "metro_km": 10.2,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/18/Photo_h400_w540/GR2-494035-2476955_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -4442,7 +5467,7 @@ const ALL_PGS = [
     "metro": "Dasarahalli Metro Station, Bangalore",
     "metro_km": 3.6,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/20/Photo_h400_w540/GR2-358343-1696335_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -4625,7 +5650,7 @@ const ALL_PGS = [
     "metro": "Benniganahalli Metro Station",
     "metro_km": 2.9,
     "image": "",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -4749,7 +5774,7 @@ const ALL_PGS = [
     "metro": "IIMB Metro Station",
     "metro_km": 1.0,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/06/Photo_h400_w540/GR2-247931-1164241_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -4811,7 +5836,7 @@ const ALL_PGS = [
     "metro": "K.R. Pura Metro Station",
     "metro_km": 2.4,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jun/16/Photo_h400_w540/GR2-497511-2500771_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -4892,7 +5917,7 @@ const ALL_PGS = [
     "metro": "Langford Town Metro Station",
     "metro_km": 0.4,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Mar/30/Photo_h400_w540/GR2-281165-1319677_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -4930,7 +5955,7 @@ const ALL_PGS = [
     "metro": "BTM Layout Metro Station",
     "metro_km": 2.6,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/19/Photo_h400_w540/GR2-251697-1181371_400_540.jpeg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -4971,7 +5996,7 @@ const ALL_PGS = [
     "metro": "Hosa Road Metro Station",
     "metro_km": 3.4,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/16/Photo_h400_w540/GR2-435827-2105419_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -4993,7 +6018,7 @@ const ALL_PGS = [
     "metro": "Electronic City Metro Station",
     "metro_km": 2.3,
     "image": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Oct/25/Photo_h400_w540/GR2-245389-1153257_400_540.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -5755,7 +6780,7 @@ const ALL_PGS = [
     "metro": "",
     "metro_km": null,
     "image": "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/center/cover_photo/64f059171647150001451e75/15__1_.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -6294,7 +7319,7 @@ const ALL_PGS = [
     "metro": "",
     "metro_km": null,
     "image": "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/center/cover_photo/695cccfe4eb3d100015092d2/32.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -6371,7 +7396,7 @@ const ALL_PGS = [
     "metro": "",
     "metro_km": null,
     "image": "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/center/cover_photo/69f18cf6e9bbaa0001f8fba2/CRM_Sample_Laptop.jpeg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -6563,7 +7588,7 @@ const ALL_PGS = [
     "metro": "",
     "metro_km": null,
     "image": "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/center/cover_photo/69f9be4f17f8ac000116e97e/CRM_Sample_Laptop.jpeg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -7920,7 +8945,7 @@ const ALL_PGS = [
     "metro": "",
     "metro_km": null,
     "image": "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/center/cover_photo/69ea0a39bb57bf0001b03e3f/8.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -7997,7 +9022,7 @@ const ALL_PGS = [
     "metro": "",
     "metro_km": null,
     "image": "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/center/cover_photo/69f5b21415ded00001012a32/CRM_Sample_Laptop.jpeg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },
@@ -8442,7 +9467,7 @@ const ALL_PGS = [
     "metro": "",
     "metro_km": null,
     "image": "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/center/cover_photo/64f0605cbe3f1400018b03e3/15__5_.jpg",
-    "commute_time": null,
+    "commute_time": "N/A",
     "commute_cost": null,
     "commute_walking": null
   },

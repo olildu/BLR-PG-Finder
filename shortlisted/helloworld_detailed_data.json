@@ -1,0 +1,1218 @@
+[
+    {
+        "id": 610,
+        "name": "HelloWorld Indiranagar",
+        "locality": "Domlur",
+        "cover_image": "https://images.thehelloworld.com/property/610/srp/desktop/1572848029NXC.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Classic (3SHARING)",
+                "cost": 27999
+            },
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 22999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Classic (3SHARING)",
+                "cost": 9999
+            },
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 12999
+            }
+        ]
+    },
+    {
+        "id": 1103,
+        "name": "HelloWorld Radiance",
+        "locality": "taverekere main road",
+        "cover_image": "https://images.thehelloworld.com/property/1103/srp/desktop/1719140236NDSC04589-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 23000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 12000
+            }
+        ]
+    },
+    {
+        "id": 819,
+        "name": "HelloWorld Scorpio",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/819/srp/desktop/1713185109NDSC08108-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 25999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 13999
+            }
+        ]
+    },
+    {
+        "id": 800,
+        "name": "HelloWorld 18thMain",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/800/srp/desktop/1712312854NDSC08249-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 28999
+            },
+            {
+                "room_type": "Classic (4SHARING)",
+                "cost": 38999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 15999
+            },
+            {
+                "room_type": "Classic (4SHARING)",
+                "cost": 14999
+            }
+        ]
+    },
+    {
+        "id": 1200,
+        "name": "HelloWorld Bellandur44",
+        "locality": "Bellandur",
+        "cover_image": "https://images.thehelloworld.com/property/1200/srp/desktop/1756874980NWhatsApp Image 2025-09-03 at 10.18.45 AM (1).jpeg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 21999
+            },
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 22999
+            },
+            {
+                "room_type": "Comfort (PRIVATE)",
+                "cost": 21599
+            },
+            {
+                "room_type": "Convenience (2SHARING)",
+                "cost": 22599
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 10999
+            },
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 22999
+            },
+            {
+                "room_type": "Comfort (PRIVATE)",
+                "cost": 21599
+            },
+            {
+                "room_type": "Convenience (2SHARING)",
+                "cost": 10599
+            }
+        ]
+    },
+    {
+        "id": 831,
+        "name": "HelloWorld Oswald",
+        "locality": "kadubeesanahalli",
+        "cover_image": "https://images.thehelloworld.com/property/831/srp/desktop/1713261901NDSC09149-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 20000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 11500
+            }
+        ]
+    },
+    {
+        "id": 623,
+        "name": "HelloWorld Daffodil",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/623/srp/desktop/1570783003Ngbe.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Classic+ (2SHARING)",
+                "cost": 22999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Classic+ (2SHARING)",
+                "cost": 12999
+            }
+        ]
+    },
+    {
+        "id": 1138,
+        "name": "HelloWorld Domlur",
+        "locality": "Domlur",
+        "cover_image": "https://images.thehelloworld.com/property/1138/srp/desktop/1741004509NDSC00337-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 31999
+            },
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 33999
+            },
+            {
+                "room_type": "Comfort (PRIVATE)",
+                "cost": 42999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 16999
+            },
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 33999
+            },
+            {
+                "room_type": "Comfort (PRIVATE)",
+                "cost": 42999
+            }
+        ]
+    },
+    {
+        "id": 749,
+        "name": "HelloWorld BrookeField",
+        "locality": "Brookefield",
+        "cover_image": "https://images.thehelloworld.com/property/749/srp/desktop/1591948915Nw.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 20000
+            },
+            {
+                "room_type": "Classic (3SHARING)",
+                "cost": 21000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 11000
+            },
+            {
+                "room_type": "Classic (3SHARING)",
+                "cost": 11000
+            }
+        ]
+    },
+    {
+        "id": 609,
+        "name": "HelloWorld Tranquil",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/609/srp/desktop/1670405464N1568624756Nplk.jpeg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 29999
+            },
+            {
+                "room_type": "Convenience+ (2BHK)",
+                "cost": 52999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 15999
+            },
+            {
+                "room_type": "Convenience+ (2BHK)",
+                "cost": 52999
+            }
+        ]
+    },
+    {
+        "id": 830,
+        "name": "HelloWorld Cairo",
+        "locality": "kadubeesanahalli",
+        "cover_image": "https://images.thehelloworld.com/property/830/srp/desktop/1712576572NDSC08986-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 20000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 11000
+            }
+        ]
+    },
+    {
+        "id": 1183,
+        "name": "HelloWorld Arch35",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/1183/srp/desktop/1749459885NDSC09908-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 28000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 27000
+            },
+            {
+                "room_type": "Comfort (2BHK)",
+                "cost": 50000
+            },
+            {
+                "room_type": "Convenience (3BHK)",
+                "cost": 70000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 16000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 14000
+            },
+            {
+                "room_type": "Comfort (2BHK)",
+                "cost": 50000
+            },
+            {
+                "room_type": "Convenience (3BHK)",
+                "cost": 70000
+            }
+        ]
+    },
+    {
+        "id": 1220,
+        "name": "HelloWorld 16thMain",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/1220/srp/desktop/1764676885NWhatsApp Image 2025-12-02 at 5.26.28 PM (8).jpeg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 29999
+            },
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 31999
+            },
+            {
+                "room_type": "Comfort (PRIVATE)",
+                "cost": 32999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 17999
+            },
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 31999
+            },
+            {
+                "room_type": "Comfort (PRIVATE)",
+                "cost": 32999
+            }
+        ]
+    },
+    {
+        "id": 1152,
+        "name": "HelloWorld 1stMain",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/1152/srp/desktop/1741004006NDSC00142-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 27999
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 29999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 15999
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 16999
+            }
+        ]
+    },
+    {
+        "id": 163,
+        "name": "HelloWorld 19thMain",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/519/srp/desktop/1562132721Nsrp.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 31999
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 30999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 17999
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 16999
+            }
+        ]
+    },
+    {
+        "id": 1163,
+        "name": "HelloWorld 17thMain",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/1163/srp/desktop/1743398468NDSC04152-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 29999
+            },
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 28999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 29999
+            },
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 17999
+            }
+        ]
+    },
+    {
+        "id": 1045,
+        "name": "HelloWorld Castle Del Monte",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/1045/srp/desktop/1712658082NDSC08042-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 29999
+            },
+            {
+                "room_type": "Classic (3SHARING)",
+                "cost": 25999
+            },
+            {
+                "room_type": "Comfort (2SHARING)",
+                "cost": 27999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 17999
+            },
+            {
+                "room_type": "Classic (3SHARING)",
+                "cost": 14999
+            },
+            {
+                "room_type": "Comfort (2SHARING)",
+                "cost": 16999
+            }
+        ]
+    },
+    {
+        "id": 1185,
+        "name": "HelloWorld Vienna",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/1185/srp/desktop/1750755450NDSC01228-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 25000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 26000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 25000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 14000
+            }
+        ]
+    },
+    {
+        "id": 1010,
+        "name": "HelloWorld Castle Prague",
+        "locality": "btm layout",
+        "cover_image": "https://images.thehelloworld.com/property/1010/srp/desktop/1713184667NDSC08621-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 32000
+            },
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 31000
+            },
+            {
+                "room_type": "Comfort (2SHARING)",
+                "cost": 24000
+            },
+            {
+                "room_type": "Convenience (PRIVATE)",
+                "cost": 27000
+            },
+            {
+                "room_type": "Convenience+ (PRIVATE)",
+                "cost": 28000
+            },
+            {
+                "room_type": "Classic+ (PRIVATE)",
+                "cost": 32000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 17500
+            },
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 31000
+            },
+            {
+                "room_type": "Comfort (2SHARING)",
+                "cost": 13500
+            },
+            {
+                "room_type": "Convenience (PRIVATE)",
+                "cost": 27000
+            },
+            {
+                "room_type": "Convenience+ (PRIVATE)",
+                "cost": 28000
+            },
+            {
+                "room_type": "Classic+ (PRIVATE)",
+                "cost": 32000
+            }
+        ]
+    },
+    {
+        "id": 1206,
+        "name": "HelloWorld Acropolis",
+        "locality": "sg palya",
+        "cover_image": "https://images.thehelloworld.com/property/1206/srp/desktop/1758883019NWhatsApp Image 2025-09-26 at 4.05.12 PM (3).jpeg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 23999
+            },
+            {
+                "room_type": "Classic (3SHARING)",
+                "cost": 29999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 12999
+            },
+            {
+                "room_type": "Classic (3SHARING)",
+                "cost": 10999
+            }
+        ]
+    },
+    {
+        "id": 1037,
+        "name": "HelloWorld Adobe",
+        "locality": "kadubeesanahalli",
+        "cover_image": "https://images.thehelloworld.com/property/1037/srp/desktop/1712326078NDSC09236-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 19999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 11500
+            }
+        ]
+    },
+    {
+        "id": 1165,
+        "name": "HelloWorld Lancaster",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/1165/srp/desktop/1744004562NDSC06311-HDR (1) (1).jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 32999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 17999
+            }
+        ]
+    },
+    {
+        "id": 612,
+        "name": "HelloWorld HRBR",
+        "locality": "hrbr layout",
+        "cover_image": "https://images.thehelloworld.com/property/612/srp/desktop/1568273931N897j.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 23000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 21000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 13000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 11000
+            }
+        ]
+    },
+    {
+        "id": 1115,
+        "name": "HelloWorld Citadel",
+        "locality": "btm layout",
+        "cover_image": "https://images.thehelloworld.com/property/1115/srp/desktop/1721905059NDSC06127-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 19999
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 23000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 19999
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 13500
+            }
+        ]
+    },
+    {
+        "id": 607,
+        "name": "HelloWorld AECS",
+        "locality": "AECS Layout",
+        "cover_image": "https://images.thehelloworld.com/property/607/srp/desktop/1568097775Na.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 29999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 29999
+            }
+        ]
+    },
+    {
+        "id": 1079,
+        "name": "HelloWorld Castle Bran",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/1079/srp/desktop/1712577202NDSC07937-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 24000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 13500
+            }
+        ]
+    },
+    {
+        "id": 1159,
+        "name": "HelloWorld Ananta",
+        "locality": "Mahadevpura",
+        "cover_image": "https://images.thehelloworld.com/property/1159/srp/desktop/1741437881NDSC01417-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 14999
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 13999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 14999
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 7999
+            }
+        ]
+    },
+    {
+        "id": 1177,
+        "name": "HelloWorld Trinity30",
+        "locality": "btm layout",
+        "cover_image": "https://images.thehelloworld.com/property/1177/srp/desktop/1747386635NQueen2.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 27999
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 25999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 16999
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 14999
+            }
+        ]
+    },
+    {
+        "id": 1198,
+        "name": "HelloWorld Veridian69",
+        "locality": "Arekere",
+        "cover_image": "https://images.thehelloworld.com/property/1198/srp/desktop/1754054384NWhatsApp Image 2025-08-01 at 6.48.49 PM (12).jpeg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (STUDIO)",
+                "cost": 24000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 24999
+            },
+            {
+                "room_type": "Comfort (1BHK)",
+                "cost": 25999
+            },
+            {
+                "room_type": "Convenience (2BHK)",
+                "cost": 35999
+            },
+            {
+                "room_type": "Comfort+ (2SHARING)",
+                "cost": 28999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (STUDIO)",
+                "cost": 24000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 13499
+            },
+            {
+                "room_type": "Comfort (1BHK)",
+                "cost": 25999
+            },
+            {
+                "room_type": "Convenience (2BHK)",
+                "cost": 35999
+            },
+            {
+                "room_type": "Comfort+ (2SHARING)",
+                "cost": 16999
+            }
+        ]
+    },
+    {
+        "id": 1114,
+        "name": "HelloWorld 27thMain",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/1114/srp/desktop/1721905610NDSC06505-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 30000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 28000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 17000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 16000
+            }
+        ]
+    },
+    {
+        "id": 1222,
+        "name": "HelloWorld Grid53",
+        "locality": "doddanekundi",
+        "cover_image": "https://images.thehelloworld.com/property/1222/srp/desktop/1766557341NWhatsApp Image 2025-12-24 at 11.50.47 AM (11).jpeg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 17999
+            },
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 20999
+            },
+            {
+                "room_type": "Comfort (2SHARING)",
+                "cost": 19999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 8999
+            },
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 20999
+            },
+            {
+                "room_type": "Comfort (2SHARING)",
+                "cost": 9999
+            }
+        ]
+    },
+    {
+        "id": 1016,
+        "name": "HelloWorld Arden",
+        "locality": "Kudlu",
+        "cover_image": "https://images.thehelloworld.com/property/1016/srp/desktop/1712570440NDSC08528-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (1BHK)",
+                "cost": 25999
+            },
+            {
+                "room_type": "Classic (STUDIO)",
+                "cost": 19999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (1BHK)",
+                "cost": 25999
+            },
+            {
+                "room_type": "Classic (STUDIO)",
+                "cost": 19999
+            }
+        ]
+    },
+    {
+        "id": 1189,
+        "name": "HelloWorld Hanover",
+        "locality": "hrbr layout",
+        "cover_image": "https://images.thehelloworld.com/property/1189/srp/desktop/1750755670NDSC01405-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 20999
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 19999
+            },
+            {
+                "room_type": "Comfort (PRIVATE)",
+                "cost": 21999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 10999
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 9999
+            },
+            {
+                "room_type": "Comfort (PRIVATE)",
+                "cost": 21999
+            }
+        ]
+    },
+    {
+        "id": 1057,
+        "name": "HelloWorld Nexus",
+        "locality": "ejipura",
+        "cover_image": "https://images.thehelloworld.com/property/1057/srp/desktop/1713261595NDSC08761-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 32999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 32999
+            }
+        ]
+    },
+    {
+        "id": 1123,
+        "name": "HelloWorld Lhasa",
+        "locality": "Koramangala",
+        "cover_image": "https://images.thehelloworld.com/property/1123/srp/desktop/1725598287NDSC01433-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 28000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 33000
+            },
+            {
+                "room_type": "Comfort (PRIVATE)",
+                "cost": 32000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 28000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 17500
+            },
+            {
+                "room_type": "Comfort (PRIVATE)",
+                "cost": 32000
+            }
+        ]
+    },
+    {
+        "id": 1121,
+        "name": "HelloWorld Bali",
+        "locality": "Indiranagar",
+        "cover_image": "https://images.thehelloworld.com/property/1121/srp/desktop/1725602834NDSC01544-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 32000
+            },
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 32000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 17000
+            },
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 32000
+            }
+        ]
+    },
+    {
+        "id": 741,
+        "name": "HelloWorld CornerHouse",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/741/srp/desktop/1579951882Nf.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (1BHK)",
+                "cost": 37999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (1BHK)",
+                "cost": 37999
+            }
+        ]
+    },
+    {
+        "id": 1000,
+        "name": "HelloWorld Felicia",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/1000/srp/desktop/1712907029NDSC08414-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 31999
+            },
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 27999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 31999
+            },
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 27999
+            }
+        ]
+    },
+    {
+        "id": 1124,
+        "name": "HelloWorld Kyoto",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/1124/srp/desktop/1739255696NDSC01910-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 32000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 32000
+            },
+            {
+                "room_type": "Classic+ (2SHARING)",
+                "cost": 33000
+            },
+            {
+                "room_type": "Comfort (PRIVATE)",
+                "cost": 32000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 32000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 17000
+            },
+            {
+                "room_type": "Classic+ (2SHARING)",
+                "cost": 17500
+            },
+            {
+                "room_type": "Comfort (PRIVATE)",
+                "cost": 32000
+            }
+        ]
+    },
+    {
+        "id": 1085,
+        "name": "HelloWorld 15thMain",
+        "locality": "hsr layout",
+        "cover_image": "https://images.thehelloworld.com/property/1085/srp/desktop/1712312332NDSC08330-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 29999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Classic (PRIVATE)",
+                "cost": 29999
+            }
+        ]
+    },
+    {
+        "id": 675,
+        "name": "HelloWorld Lakeview",
+        "locality": "btm layout",
+        "cover_image": "https://images.thehelloworld.com/property/675/srp/desktop/1575891386Nsac.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 25999
+            },
+            {
+                "room_type": "Convenience (1BHK)",
+                "cost": 28999
+            },
+            {
+                "room_type": "Comfort (2BHK)",
+                "cost": 45999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 14999
+            },
+            {
+                "room_type": "Convenience (1BHK)",
+                "cost": 28999
+            },
+            {
+                "room_type": "Comfort (2BHK)",
+                "cost": 45999
+            }
+        ]
+    },
+    {
+        "id": 1088,
+        "name": "HelloWorld Fern",
+        "locality": "Harlur",
+        "cover_image": "https://images.thehelloworld.com/property/1088/srp/desktop/1712141910NDSC08863-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 30000
+            },
+            {
+                "room_type": "Convenience (PRIVATE)",
+                "cost": 25000
+            },
+            {
+                "room_type": "Comfort (2BHK)",
+                "cost": 45000
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (PRIVATE)",
+                "cost": 30000
+            },
+            {
+                "room_type": "Convenience (PRIVATE)",
+                "cost": 25000
+            },
+            {
+                "room_type": "Comfort (2BHK)",
+                "cost": 45000
+            }
+        ]
+    },
+    {
+        "id": 1113,
+        "name": "HelloWorld Euphoria",
+        "locality": "bommanahalli",
+        "cover_image": "https://images.thehelloworld.com/property/1113/srp/desktop/1721897895NDSC06361-HDR.jpg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 23000
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 21999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 12999
+            },
+            {
+                "room_type": "Classic (2SHARING)",
+                "cost": 11999
+            }
+        ]
+    },
+    {
+        "id": 1195,
+        "name": "HelloWorld Ravello16",
+        "locality": "Koramangala",
+        "cover_image": "https://images.thehelloworld.com/property/1195/srp/desktop/1753857964NWhatsApp Image 2025-07-30 at 12.14.31 PM (3).jpeg.jpeg",
+        "single_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 33999
+            },
+            {
+                "room_type": "Comfort (1BHK)",
+                "cost": 39999
+            }
+        ],
+        "sharing_room_costs": [
+            {
+                "room_type": "Club (2SHARING)",
+                "cost": 17999
+            },
+            {
+                "room_type": "Comfort (1BHK)",
+                "cost": 39999
+            }
+        ]
+    }
+]
